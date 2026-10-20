@@ -1,0 +1,82 @@
+{
+  "bar": {
+    "anchor": "top-center",
+    "offsetTop": 8,
+    "dotDiameter": 18,
+    "dotGap": 10,
+    "hoverScale": 1.2,
+    "positions": {}
+  },
+  "behavior": {
+    "onlyWhenZoteroForeground": true,
+    "pollIntervalMs": 200,
+    "topmostRefreshMs": 3000
+  },
+  "colors": [
+    {
+      "order": 1,
+      "id": "yellow",
+      "hex": "#ffd400",
+      "short": "主张",
+      "question": "作者的核心结论是什么",
+      "cardSection": "§1 一句话结论、§6 主张列"
+    },
+    {
+      "order": 2,
+      "id": "red",
+      "hex": "#ff6666",
+      "short": "可疑·局限",
+      "question": "哪里不成立 / 没证明 / 有前提 / 夸大",
+      "cardSection": "§7 局限、§8 批判"
+    },
+    {
+      "order": 3,
+      "id": "green",
+      "hex": "#5fb236",
+      "short": "方法",
+      "question": "怎么做的（设定、步骤、公式、参数）",
+      "cardSection": "§4 关键方法"
+    },
+    {
+      "order": 4,
+      "id": "blue",
+      "hex": "#2ea8e5",
+      "short": "背景·定义",
+      "question": "这是什么、别人做到哪了",
+      "cardSection": "§2 动机、§3 骨架"
+    },
+    {
+      "order": 5,
+      "id": "purple",
+      "hex": "#a28ae5",
+      "short": "可复用",
+      "question": "我能搬走什么（结构、表述、实验设计）",
+      "cardSection": "§9 可复用清单"
+    },
+    {
+      "order": 6,
+      "id": "magenta",
+      "hex": "#e56eee",
+      "short": "表述素材",
+      "question": "不参与高亮，只留给「下划线」通道",
+      "cardSection": "—",
+      "disabled": true
+    },
+    {
+      "order": 7,
+      "id": "orange",
+      "hex": "#f19837",
+      "short": "数据",
+      "question": "测出来 / 算出来多少",
+      "cardSection": "§5 实验、§6 证据列"
+    },
+    {
+      "order": 8,
+      "id": "gray",
+      "hex": "#aaaaaa",
+      "short": "待查·待办",
+      "question": "读完之后还要做一件事（必须写批注）",
+      "cardSection": "待办、§10 锚点"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# dsh-graph 看板状态（插件本地产物，不入库）
+.dsh-graph/
+
+# 构建中间产物
+*.user
+*.suo
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
